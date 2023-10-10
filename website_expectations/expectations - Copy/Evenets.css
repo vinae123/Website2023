@@ -1,0 +1,78 @@
+body{
+    padding: 20px;
+}
+
+.Tech .container .row .col-lg-3 img {
+    max-width: 90%; /* Adjust the max-width as needed */
+    height: 50%;
+    padding: 20px;
+}
+p {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: bold;
+    color: #ffffff; /* Change the color to your preference */
+    text-align: center;
+}
+.Nontech .container .row .col-lg-3 img {
+    max-width: 90%; /* Adjust the max-width as needed */
+    height: 80%;
+    padding: 20px;
+}
+.Nontech .container .row .col-lg-6 img{
+    max-width: 90%; /* Adjust the max-width as needed */
+    height: auto;
+    padding: 20px;
+} 
+.Nontech .container .row img{
+    max-width: 90%; /* Adjust the max-width as needed */
+    height: auto;
+    padding: 20px;
+}   
+.row{
+   padding: 15px;
+}
+
+.col-lg-3 .Event-Description, .col-lg-6 .Event-Description {
+    font-size: 15px; /* Adjust the font size as needed */
+    font-weight: bolder;
+    font-family: 'Pixelify Sans', cursive;
+    color: #dcfbc8; /* Change the color to your preference */
+    margin-top: 5px; /* Add space below the event name */
+}
+.row .Event-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: darkcyan;
+    font-family: 'Bungee Spice', cursive;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+video{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.home-content {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    z-index: 3;
+  }
+
+.events{
+    padding: 8%;
+}
